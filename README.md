@@ -49,3 +49,8 @@ Teams and organizations can set up a private API network with Postman, which is 
 
 ### 3. Tools
 
+We have the ability to manage the API-Lifecycle from design to testing, documenting, API-mocking and etc. all of this can be done with the helpful and user-friendly tools of Postman. In this section I will introduce the Postman-Tools and make a small example of it so that we can get an idea of them.
+
+3.1. API-Client
+
+
