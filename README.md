@@ -23,7 +23,7 @@ Postman is more than just an API-client that Postman is known for. Postman is a 
 
 ### 1. Installation
 
-Developers can use Postman in different ways, Postman can be used both as a web-app and as a direct install program, in addition, Postman is available for different operating systems such as Linux, Windows, etc.
+Developers can use Postman in different ways, Postman can be used both as a web-app and as a Desktop-app, in addition, Postman is available for different operating systems such as Linux, Windows, etc.
 
 And developers can also use Postman without having to register, but registration is recommended as it has some advantages, e.g. data backup, because Postman is cloud-based or registration is mandatory if developers want to set up a public workspace or network. I've already registered so that I can show all the important parts of Postman in the course of this tutorial.
 
@@ -52,6 +52,23 @@ Teams and organizations can set up a private API network with Postman, which is 
 ---------
 ### 3. Workspace
 
+When we start postman, the first thing we have to do is create a workspace so that we can use the postman tools at all.
+
+There are four workspace types in postman, these are:
+
++ **Personal Workspace**: As the name suggests, this is mainly personal and it contains all the tools we need to build, manage APIs. Everything in this area happens in real time, so we can easily switch between the Postman-instances, web- and desktop-app at any time.
+
++ **Team Workspace** (more than 3 members -> Pro or Enterprise edition): This allows creating a workspace for multiple people, and even assign them specific roles like admin, editor and viewer.
+
++ **Private Workspace** (only available in the Pro and Enterprise editions): There is the possibility that not all team members have access, but only members who receive an invitation.
+
++ **Partner Worspace**: Is similar to a private workspace, you can not only invite team members but also external users as partners.
+Unlike the other workspaces, we cannot create a partner workspace directly, it is invisible at first. For this you have to go through a few steps first, see how to create [Partner-Workspace](https://blog.postman.com/introducing-partner-workspaces/) via Postman.
+
++ **Public Workspace**: We can publish or make our APIs available worldwide by setting up a public workspace.
+
+
+To create a workspace we simply have to click on Workspace at the top of the Postman web or desktop app, then give the workspace a name and next select the workspace type e.g. Persona and finally just click on Create.
 
 
 -------
