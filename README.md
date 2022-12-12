@@ -92,16 +92,24 @@ The foundational tool for which POstman is well known among developers. No matte
 
 First we should create a collection by simply clicking the Plus button, then a collection will be automatically generated, we can name it whatever we want, in my case it's called My Collection.
 
+we can now click Add a request to make an API call.
+
 ![coolll](https://user-images.githubusercontent.com/43212219/207129448-77515cad-5744-4ae6-ab11-5d4dd201158a.png)
 
 
+Here I create an API-request called FetchUsers because I want to fetch a List of User. We now have the ability to use different HTTP methods(1) and we can call any API URL(2), for that I used the https://gorest.co.in/  to get back a list of test users.
+
 ![MS Paint _ Microsoft Paint Online](https://user-images.githubusercontent.com/43212219/207147530-339cda91-33d9-4c30-bb9b-dc2f4dd4f420.png)
 
+If we now click on send, we get back a JSON file in pretty-print as a response. We can also change the representation on different data structures.
 
 ![Screenshot from 2022-12-12 21-28-51](https://user-images.githubusercontent.com/43212219/207148688-a2386719-2ede-4377-bd50-833164d67a46.png)
 
+We can also call google.com and display it as a Perview.
 
 ![Screenshot from 2022-12-12 21-35-13](https://user-images.githubusercontent.com/43212219/207149181-dcdf04dd-cf54-4dd1-904f-5f8070693f64.png)
+
+If we want to use an HTTP-Post, then we can enter the data directly as a body, and if authentication against the server is required, as in our example, this can be set under Authorization, there are different types.
 
 ![Screenshot from 2022-12-12 21-40-51](https://user-images.githubusercontent.com/43212219/207150074-e418138b-3e8c-4cd5-82c8-0034261cd499.png)
 
