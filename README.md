@@ -68,7 +68,9 @@ Unlike the other workspaces, we cannot create a partner workspace directly, it i
 + **Public Workspace**: We can publish or make our APIs available worldwide by setting up a public workspace.
 
 
-To create a workspace we simply have to click on Workspace at the top of the Postman web or desktop app, then give the workspace a name and next select the workspace type e.g. Persona and finally just click on Create.
+The following image shows how to create a workspace, we simply have to click on workspace in the top left of the Postman web or desktop app, then give the workspace a name and next select the workspace type, e.g. Personal and finally click on Create Workspace.
+
+![create_workspace](https://user-images.githubusercontent.com/43212219/207112977-c257b31f-4aa2-497a-a840-973af1fc78c2.png)
 
 
 -------
@@ -77,6 +79,30 @@ To create a workspace we simply have to click on Workspace at the top of the Pos
 
 We have the ability to manage the API-Lifecycle from design to testing, documenting, API-mocking and etc. all of this can be done with the helpful and user-friendly tools of Postman. In this section I will introduce the Postman-Tools and make a small example of it so that we can get an idea of them.
 
+If we now go to our already created workspace, we will see the tools (Collections. APIs, Environments, Mock Servers, Monitors and Flows) on the left side. We will look at these tools next by using examples.
+
+![Untitled](https://user-images.githubusercontent.com/43212219/207124332-b74adea7-8454-4a5c-93aa-20d1ea6f373e.png)
+
+
+
+
 #### 4.1. API-Client
 
 The foundational tool for which POstman is well known among developers. No matter if we want to test or debug the APIs or define simple and complex API-Requests for HTTP, REST, GraphQL and WebSocktes, we can do all these with Postman API Client. In addition, the API client can automatically recognize a lot more, for example the language of the response or authentication types to the server.
+
+First we should create a collection by simply clicking the Plus button, then a collection will be automatically generated, we can name it whatever we want, in my case it's called My Collection.
+
+![coolll](https://user-images.githubusercontent.com/43212219/207129448-77515cad-5744-4ae6-ab11-5d4dd201158a.png)
+
+
+![MS Paint _ Microsoft Paint Online](https://user-images.githubusercontent.com/43212219/207147530-339cda91-33d9-4c30-bb9b-dc2f4dd4f420.png)
+
+
+![Screenshot from 2022-12-12 21-28-51](https://user-images.githubusercontent.com/43212219/207148688-a2386719-2ede-4377-bd50-833164d67a46.png)
+
+
+![Screenshot from 2022-12-12 21-35-13](https://user-images.githubusercontent.com/43212219/207149181-dcdf04dd-cf54-4dd1-904f-5f8070693f64.png)
+
+![Screenshot from 2022-12-12 21-40-51](https://user-images.githubusercontent.com/43212219/207150074-e418138b-3e8c-4cd5-82c8-0034261cd499.png)
+
+
