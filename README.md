@@ -5,14 +5,7 @@
 
 -------
 
-### Table of contents
 
-...
-
-...
-
-
-...
 
 --------
 ### 0. Intro
@@ -124,7 +117,7 @@ There are also other options such as :
 
 ---------------
 
-API-Documentation
+#### 4.2. API-Documentation
 
 We can write parallel documentation for the request. The documentation tool supports plain-text markdown languages etc.
 
@@ -142,7 +135,7 @@ Postman automatically writes the parameters to the documentation, and we can als
 
 
 ---------
-#### API-Design
+#### 4.3. API-Design
 
 
 We can also specify in Postman how our API-Structure should be, for that Postman provides us with various Schema-Types such as OpenAPI, GraphQL etc. and we can also choose the formatting as YAML or JSON. To learn more about this just read the API-Design [here](https://learning.postman.com/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/).
@@ -156,13 +149,13 @@ We can also specify in Postman how our API-Structure should be, for that Postman
 
 
 -------------------
-#### AP-Testing
+#### 4.4. API-Testing
 
 Postman allows Test-Scripts to be written in JavaScript to verify that the APIs are working as they should.  To learn API-Testing, just read this [documentation](https://learning.postman.com/docs/writing-scripts/test-scripts/)
 
 ------
 
-#### Mock-Server
+#### 4.5. Mock-Server
 
 If we don't have real API-servers, we don't have to worry because Postman has the ability to simulate individual API servers, so we can do whatever we want. we can also simulate the network latency in the mock server. to learn more about Postman mock servers, you can read this [documentation](https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
 
@@ -172,9 +165,9 @@ If we don't have real API-servers, we don't have to worry because Postman has th
 
 
 -------
-#### Monitoring
+#### 4.6. Monitoring
 
-With [Postman-Monitors](https://learning.postman.com/docs/monitoring-your-api/intro-monitors/) we can create a graphical representation of the state of our APIs. So we can check at any time whether the APIs are healthy or have enough performance.
+With [Postman-Monitors](https://learning.postman.com/docs/monitoring-your-api/intro-monitors/) we can create a graphical representation of the state of our APIs. After that we can check at any time whether the APIs are healthy or have enough performance.
 
 We can also determine when to run the monitoring process and also be notified by email if there is any error.
 
@@ -187,7 +180,7 @@ We can also determine when to run the monitoring process and also be notified by
 ------
 
 
-#### Flows
+#### 4.7. Flows
 
 Postman Flow is a relatively new feature that allows us to create API-Workflows to map and execute various actions together. There are widgets for that, which we can simply move back and forth using drag-drop.
 
@@ -202,7 +195,7 @@ An example of Postman-Team.
 
 ----------
 
-### Explore
+### 5. Explore
 
 With Postman-Explor we can find big companies worldwide that provide their APIs and also teams, workspaces, collections, flow etc.
 
@@ -212,5 +205,8 @@ With Postman-Explor we can find big companies worldwide that provide their APIs 
 
 ![Screenshot from 2022-12-13 14-43-42](https://user-images.githubusercontent.com/43212219/207341728-c6502229-43b2-487e-95f9-4abe7e735f54.png)
 
+---------
+
+## Source: [Postman](https://www.postman.com/)
 
 
