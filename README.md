@@ -111,15 +111,30 @@ We can also call google.com and display it as a Perview.
 
 If we want to use an HTTP-Post, then we can enter the data directly as a body, and if authentication against the server is required, as in our example, this can be set under Authorization, there are different types.
 
+There are also other options such as :
+
++ Params: here we have the possibility, for example, to enter query params. Alternatively, we can put it directly at the top of the Uri
++ Headers: different headers e.g. Content-Type etc.
++ Body: is needed if we want to use HTTP post
++ Pre-request-Script: here we can run some code before the request is made
++ Tests: you can also write tests for the API request 
++ Settings: various settings e.g. HTTP/HTTPs or requests-limiting etc.
+
 ![Screenshot from 2022-12-12 21-40-51](https://user-images.githubusercontent.com/43212219/207150074-e418138b-3e8c-4cd5-82c8-0034261cd499.png)
 
 ---------------
 
 API-Documentation
 
+We can write parallel documentation for the request. The documentation tool supports plain-text markdown languages etc.
+
 ![Screenshot from 2022-12-13 12-41-10](https://user-images.githubusercontent.com/43212219/207309682-1dcf710c-7109-4af7-acad-c362b9e668c1.png)
 
-[Screenshot from 2022-12-12 22-08-00](https://user-images.githubusercontent.com/43212219/207154849-dc2ad323-7b04-46b4-a058-c17ae9646f18.png)
+![Screenshot from 2022-12-12 22-08-00](https://user-images.githubusercontent.com/43212219/207319557-ed6a3762-4f5a-4217-858c-ee66e3e81089.png)
+
+
+
+Postman automatically writes the parameters to the documentation, and we can also rewrite them however we want.
 
 ![Screenshot from 2022-12-13 12-40-15](https://user-images.githubusercontent.com/43212219/207309516-21c793d7-b2d4-4194-83e5-557339feee82.png)
 
@@ -127,8 +142,10 @@ API-Documentation
 
 
 ---------
-API-Design
+#### API-Design
 
+
+We can also specify in Postman how our API-Structure should be, for that Postman provides us with various Schema-Types such as OpenAPI, GraphQL etc. and we can also choose the formatting as YAML or JSON. To learn more about this just read the API-Design [here](https://learning.postman.com/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/).
 
 ![Screenshot from 2022-12-12 22-01-14](https://user-images.githubusercontent.com/43212219/207153852-6e05aa75-60e7-477d-a2fb-8b6dc9e86026.png)
 
@@ -139,37 +156,61 @@ API-Design
 
 
 -------------------
-AP-Tests
+#### AP-Testing
 
-
+Postman allows Test-Scripts to be written in JavaScript to verify that the APIs are working as they should.  To learn API-Testing, just read this [documentation](https://learning.postman.com/docs/writing-scripts/test-scripts/)
 
 ------
 
-Mock-Server
+#### Mock-Server
+
+If we don't have real API-servers, we don't have to worry because Postman has the ability to simulate individual API servers, so we can do whatever we want. we can also simulate the network latency in the mock server. to learn more about Postman mock servers, you can read this [documentation](https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
 
 
-
+![Screenshot from 2022-12-13 14-02-12](https://user-images.githubusercontent.com/43212219/207325626-3ebf6c01-82cc-4463-8d45-199c14ecd303.png)
 
 
 
 -------
-Monitores
+#### Monitoring
+
+With [Postman-Monitors](https://learning.postman.com/docs/monitoring-your-api/intro-monitors/) we can create a graphical representation of the state of our APIs. So we can check at any time whether the APIs are healthy or have enough performance.
+
+We can also determine when to run the monitoring process and also be notified by email if there is any error.
+
+![Screenshot from 2022-12-13 14-17-54](https://user-images.githubusercontent.com/43212219/207328654-8b126006-b2af-4bba-a6f9-b4dd06ffffaf.png)
 
 
+![Screenshot from 2022-12-13 14-24-27](https://user-images.githubusercontent.com/43212219/207331425-5d43b769-3a08-4bdf-8cde-2ce46e006ea0.png)
 
 
 ------
 
 
-Flows
+#### Flows
+
+Postman Flow is a relatively new feature that allows us to create API-Workflows to map and execute various actions together. There are widgets for that, which we can simply move back and forth using drag-drop.
+
+![Screenshot from 2022-12-13 14-31-12](https://user-images.githubusercontent.com/43212219/207336612-9074a538-dc46-44d1-911b-17d2597f8bde.png)
+
+An example of Postman-Team.
+
+![Screenshot from 2022-12-13 14-37-56](https://user-images.githubusercontent.com/43212219/207338434-62d71e0e-2ac0-454c-84c0-609db72c3808.png)
 
 
 
 
 ----------
 
-Explore
+### Explore
 
+With Postman-Explor we can find big companies worldwide that provide their APIs and also teams, workspaces, collections, flow etc.
+
+
+![Screenshot from 2022-12-13 14-42-49](https://user-images.githubusercontent.com/43212219/207341615-84066d87-9995-4da8-953a-c225955dea49.png)
+
+
+![Screenshot from 2022-12-13 14-43-42](https://user-images.githubusercontent.com/43212219/207341728-c6502229-43b2-487e-95f9-4abe7e735f54.png)
 
 
 
